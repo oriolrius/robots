@@ -33,3 +33,19 @@ body {
   align-items: center; 
   background-color: #f4f4f4;
 }
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0px 0;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+#footer a {
+  color: #4a90e2; /* soft blue */
+}
