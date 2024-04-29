@@ -14,13 +14,14 @@
   position: absolute;
   top: 20px;
   left: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 20px 30px;
+  font-size: 20px;
   color: white;
   background-color: #007BFF;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
 }
 
 body {
@@ -42,10 +43,28 @@ body {
   text-align: center;
   background-color: #343a40;
   color: white;
-  font-family: Roboto;
+  font-family: 'Roboto Mono', monospace;
   font-size: 14px;
 }
 
 #footer a {
   color: #4a90e2; /* soft blue */
+}
+
+#instruction-box {
+  font-family: 'Roboto Mono', monospace; /* Using a monospace font for similarity */
+  font-size: 2em; /* Larger font size for visibility */
+  color: #00FF00; /* Bright green text */
+  background-color: #000000; /* Black background for the box */
+  padding: 20px;
+  width: auto; /* Fixed width for the box */
+  margin: auto; /* Center the box horizontally */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: left; /* Text aligned to the left */
+}
+#instruction-box p {
+  margin: 0 0 10px 0; /* Spacing between paragraphs */
+  line-height: 1.2; /* Line height for better readability */
 }
